@@ -19,10 +19,11 @@ body {
   text-align: center;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-h1 { margin-bottom: 1em; }
+h1 { font-size: 120%; }
 p { margin: 1em 0; }
 
 a         { color: #00a; }
@@ -40,13 +41,35 @@ ul.posts {
 }
 
 ul.posts li {
-  line-height: 1.75em;
+  text-align: left;
 }
 
 ul.posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
+}
+
+ul.posts li {
+  padding-top: 6px;
+}
+ul.posts li h2 {
+  font-size: 100%;
+  font-weight: normal;
+}
+ul.posts li p {
+  margin: 0 0;
+  line-height: 1.2em;
+  font-size: 90%;
+}
+ul.posts li a.title {
+  text-decoration: none;
+}
+ul.posts li a.title:hover {
+  text-decoration: underline;
+}
+ul.posts li p.title {
+  font-weight: bold;
 }
 
 /*****************************************************************************/
