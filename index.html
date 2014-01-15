@@ -13,14 +13,14 @@ title: Andy Cox
   </li>
 </ul>
 
-<h1>blog posts</h1>
+<h1 id='blog'>blog posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
-<h1>visualizations</h1>
+<h1 id='visualizations'>visualizations</h1>
 <ul class='posts'>
   <li>
     <a class='title' href='http://www.weather.com/news/weather-hurricanes/sandy-path-evolution-20121026'>Evolution of Sandy's Projected Path</a>
@@ -43,7 +43,7 @@ title: Andy Cox
   </li>
 </ul>
 
-<h1>publications and presentations</h1>
+<h1 id='presentations'>publications and presentations</h1>
 <ul class='posts'>
   <li>
     <a class='title' href='https://speakerdeck.com/andycox/prediction-is-very-difficult-especially-about-the-future'>Prediction is very difficult, especially about the future</a>
@@ -71,7 +71,7 @@ title: Andy Cox
   </li>
 </ul>
 
-<h1>writing</h1>
+<h1 id='writing'>writing</h1>
 <ul class='posts'>
   <li>
     <a class='title' href='http://www.weather.com/outlook/weather-news/news/articles/challenger-weather_2011-01-27'>Weather's Role in the Challenger Accident</a>
