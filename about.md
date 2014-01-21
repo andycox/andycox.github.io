@@ -2,6 +2,8 @@
 layout: default
 title: Andy Cox
 ---
+Thanks to [Chris Wanstrath](https://twitter.com/defunkt/statuses/183409973341065216) for the format inspiration.
+
 #What I'm good at
 
 I love to ***build software***. You name it and I've probably built it or been a core part of a team that did. I've done everything from graphics for sports television to full-stack web applications to meteorological systems to machine learning to interactive data visualizations.
